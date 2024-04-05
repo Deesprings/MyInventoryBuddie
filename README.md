@@ -15,3 +15,5 @@ Small bussiness owners already have so much on their plate. They are expected to
   - Develope a program that tracks stock of inventory in real-time as well as replenishes automatically.
   - Introduce aynaltical data that helps minmizes waste and assists desision making.
   - Achive customer satisfaction by keeping inventory consistent.
+
+------------------------:
