@@ -11,10 +11,10 @@ Small businesses owners already have so much on their plate. They are expected t
 
 ## Requirements
   - Create a user friendly software that is personalized for the specific needs of the coffee shop.
-  - Automate the inventory in order to save time and reduce the risk of manuel error.
-  - Develope a program that tracks stock of inventory in real-time as well as replenishes automatically.
-  - Introduce aynaltical data that helps minmizes waste and assists desision making.
-  - Achive customer satisfaction by keeping inventory consistent.
+  - Automate the inventory in order to save time and reduce the risk of manual errors.
+  - Develop a program that tracks stock of inventory in real-time as well as replenishes automatically.
+  - Introduce analytical data that helps minimizes waste and assists decision making.
+  - Acheive customer satisfaction by keeping inventory consistent.
 
 ## Project Timeline
 ### Week 1
@@ -25,8 +25,8 @@ Small businesses owners already have so much on their plate. They are expected t
    - Update repository page.
 
 ### Week 2
-   - Begin writting code for the classes in My Inventory Buddie.
-   - Induce whether project uses all learning outcomes nessasarry.
+   - Begin writing code for the classes in My Inventory Buddie.
+   - Induce whether the project uses all learning outcomes necessary.
    - Update project page progress so far.
    - Submit code written thus far.
 
@@ -38,18 +38,18 @@ Small businesses owners already have so much on their plate. They are expected t
 
 ### Week 4
    - Finish design for GUI
-   - Do lots of testing and debuging. (write test cases)
+   - Do lots of testing and debugging. (write test cases)
    - Update project page.
    - Submit code written thus far.
 
 ### Week 5
-   - Start the design/writting code for non-functional GUI.
+   - Start the design/writing code for non-functional GUI.
    - Update project page.
    - Submit coding progress.
 
 ### Week 6
-   - Finish writting code for non-functional GUI.
-   - Re-evaluate whether project contaions all learning outcomes reqired
+   - Finish writing code for non-functional GUI.
+   - Re-evaluate whether project contains all learning outcomes required
    - Update project page
    - submit coding progress
 
@@ -57,11 +57,11 @@ Small businesses owners already have so much on their plate. They are expected t
    - Final round of tests.
    - Make sure code is free of bugs
    - Make sure program is running smoothly
-   - Begin writting script.
+   - Begin writing script.
 
 ### Week 8
    - Address any last minute problem.
-   - Create a video for project demostrating how my program satifise the learning outcomes
+   - Create a video for project demonstrating how my program satifise the learning outcomes
    -  Submit final project to canvas.
    
 
