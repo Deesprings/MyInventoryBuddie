@@ -63,5 +63,8 @@ Small businesses owners already have so much on their plate. They are expected t
    - Address any last minute problem.
    - Create a video for project demonstrating how my program satifise the learning outcomes
    -  Submit final project to canvas.
-   
+
+## CRC Cards
+[_CRC Card.pdf](https://github.com/Deesprings/MyInventoryBuddie/files/14900709/_CRC.Card.pdf)
+
 
