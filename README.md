@@ -67,4 +67,6 @@ Small businesses owners already have so much on their plate. They are expected t
 ## CRC Cards
 [_CRC Card.pdf](https://github.com/Deesprings/MyInventoryBuddie/files/14900709/_CRC.Card.pdf)
 
+## UML
+![Untitled Diagram](https://github.com/Deesprings/MyInventoryBuddie/assets/164386491/f26ed9e8-3177-4e38-86ba-5784b4d7999f)
 
