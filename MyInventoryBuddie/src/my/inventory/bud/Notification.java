@@ -33,6 +33,7 @@ public class Notification extends Inventory
 		{
 			System.out.println("Restock alert for item: " + getItemName());
 			System.out.println("Current stock level: " + getQuantity());
+			System.out.println("Shut up bitch");
 		}
 	}
 }
