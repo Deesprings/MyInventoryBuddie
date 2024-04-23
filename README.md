@@ -70,3 +70,9 @@ Small businesses owners already have so much on their plate. They are expected t
 ## Class Diagram
 ![Untitled Diagram](https://github.com/Deesprings/MyInventoryBuddie/assets/164386491/f26ed9e8-3177-4e38-86ba-5784b4d7999f)
 
+## Graphical User Interface: Wireframe
+![1-Login](https://github.com/Deesprings/MyInventoryBuddie/assets/164386491/244269b3-5204-4d03-a2be-544947aa5f4a)![2-Homepage](https://github.com/Deesprings/MyInventoryBuddie/assets/164386491/1da8327a-cf0b-48c5-a90a-958b1a18c3fc)![3-View-Inventory](https://github.com/Deesprings/MyInventoryBuddie/assets/164386491/83ef7d9f-75af-4629-a5e2-c2268f3ea0a3)
+![4-Add-Product](https://github.com/Deesprings/MyInventoryBuddie/assets/164386491/c0650a99-d8b4-4877-8237-9685596081e0)
+
+
+
