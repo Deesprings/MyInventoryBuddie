@@ -5,13 +5,14 @@ import java.util.List;
 
 public class Inventory extends Product
 {
-	private List<Product> inventory;
+	private ArrayList<Product> inventory;
 	
-	public Inventory(String itemName, String skuNumber , double price , int quantity)
+	public Inventory(ArrayList<Product> inventory)
 	{
-		super(itemName, skuNumber, price, quantity);
-		inventory = new ArrayList<>();
+		super("","",0.0,0);
+		this.inventory = inventory;
 	}
+	
 	
 	public void addProduct(Product product)
 	{
@@ -40,9 +41,9 @@ public class Inventory extends Product
 		return inventory;
 	}
 	
-	public void setProducts(List<Product> products)
+	public void setProducts(ArrayList<Product> inventory)
 	{
-		this.inventory = products;
+		this.inventory = inventory;
 	}
 }
 

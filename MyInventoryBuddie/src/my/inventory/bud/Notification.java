@@ -1,13 +1,13 @@
 package my.inventory.bud;
 
-public class Notification extends Inventory
+public class Notification extends Product
 {
 	private int lowStockThreshold;
 	private int restockThreshold;
 	
-	public Notification(String itemName , String skuNumber , double price, int quantity, int lowStockThreshold , int restockThreshold)
+	public Notification(int lowStockThreshold , int restockThreshold)
 	{
-		super(itemName, skuNumber, price, quantity);
+		super(" "," ",0.0,0);
 		this.lowStockThreshold = lowStockThreshold;
 		this.restockThreshold = restockThreshold;
 	}
@@ -16,7 +16,7 @@ public class Notification extends Inventory
 	{
 		if(getQuantity() < lowStockThreshold)
 		{
-			System.out.println("Low stock alert for item: " + getItemName());
+			System.out.println("Low stock alert for item: " + getProductName());
 			System.out.println("Current stock level: " + getQuantity());
 		}
 		
@@ -26,12 +26,12 @@ public class Notification extends Inventory
 	{
 		if(getQuantity() == 0)
 		{
-			System.out.println("Restock alert for item: " + getItemName());
+			System.out.println("Restock alert for item: " + getProductName());
 			System.out.println ("Current stock level: " + getQuantity());
 		}
 		else if(getQuantity() < restockThreshold)
 		{
-			System.out.println("Restock alert for item: " + getItemName());
+			System.out.println("Restock alert for item: " + getProductName());
 			System.out.println("Current stock level: " + getQuantity());
 			System.out.println("Shut up bitch");
 		}

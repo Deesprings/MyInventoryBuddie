@@ -2,27 +2,27 @@ package my.inventory.bud;
 
 public class Product {
 	
-	private String itemName;
+	private String productName;
 	private String skuNumber;
 	private double price;
 	private int quantity;
 
-	public Product(String itemName, String skuNumber, double price, int quantity)
+	public Product(String productName, String skuNumber, double price, int quantity)
 	{
-		this.itemName = itemName;
+		this.productName = productName;
 		this.skuNumber = skuNumber;
 		this.price = price;
 		this.quantity = quantity;
 	}
 	
-	public String getItemName()
+	public String getProductName()
 	{
-		return itemName;
+		return productName;
 	}
 	
-	public void setItemName(String itemName)
+	public void setProductName(String productName)
 	{
-		this.itemName = itemName;
+		this.productName = productName;
 	}
 	
 	public String getSkuNumber()
@@ -66,7 +66,7 @@ public class Product {
 		quantity += amount;
 	}
 	
-	public void decreaseQuantitiy( int amount)
+	public void decreaseQuantity( int amount)
 	{
 		if (amount <= quantity)
 		{
@@ -81,7 +81,7 @@ public class Product {
 	
 	public void displayProduct()
 	{
-		System.out.println("Item name " + itemName);
+		System.out.println("Item name " + productName);
 		System.out.println(" SKU Number " + skuNumber);
 		System.out.println("Price " + price);
 		System.out.println("Quantity " + quantity);

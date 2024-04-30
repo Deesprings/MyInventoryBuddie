@@ -1,5 +1,6 @@
 package my.inventory.bud;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Report extends Inventory
@@ -8,9 +9,9 @@ public class Report extends Inventory
 	private int[] quantitiesSold;
 	
 	
-	public Report(String itemName , String skuNumber, double price , int quantity ,int[] quantitiesSold, String[]dates)
+	public Report(ArrayList<Product> inventory,int[] quantitiesSold, String[]dates)
 	{
-		super(itemName, skuNumber, price, quantity);
+		super(inventory);
 		this.dates = dates;
 		this.quantitiesSold = quantitiesSold;
 	}
@@ -30,7 +31,7 @@ public class Report extends Inventory
 		for (int i =0; i < products.size(); i++)
 		{
 			System.out.print("Inventory Report:");
-			System.out.print("Item Name: " + getItemName());
+			System.out.print("Item Name: " + getProductName());
 			System.out.print("Sku Name: " + getSkuNumber());
 			System.out.print("Price: " + getPrice());
 			System.out.print( "Quantity: " + getQuantity());
